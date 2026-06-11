@@ -8,7 +8,7 @@ import axios from 'axios'
 
 const UserContext = ({children}) => {
 
-      const serverUrl = "http://localhost:8000"
+      const serverUrl = "https://virtual-ai-assistant-backend-n7eo.onrender.com"
 
       const[userData, setUserData] = useState(null)
           const[frontendImage, setFrontendImage] = useState(null)
